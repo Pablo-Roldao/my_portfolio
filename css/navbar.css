@@ -1,0 +1,41 @@
+.navbar {
+    padding: 5%;
+}
+
+.navbar * {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.collapse-area {
+    display: flex;
+    justify-content: end;
+}
+
+.navbar-nav {
+    width: fit-content;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    border: none;
+    box-shadow: none;
+}
+
+.navbar::-ms-expand {
+    background-color: #000;
+}
+
+@media (min-width: 768px) {
+    .navbar-collapse {
+        display: flex;
+        justify-content: end;
+    }
+}
+
+@media (min-width: 1080px) {
+    .navbar * {
+        font-size: 1.5rem;
+    }
+}

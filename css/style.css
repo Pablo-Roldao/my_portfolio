@@ -1,0 +1,42 @@
+body {
+    background-image: linear-gradient(transparent, #000 150vw), url(../img/background-mobile.JPG);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+main {
+    padding: 5%;
+    color: #FFFFFF;
+}
+
+.apresentation {
+    height: 90vh;
+    padding-top: 30vh;
+    text-align: center;
+}
+
+.apresentation__title {
+    font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-image: linear-gradient(transparent, #000 65vw), url(../img/backgroung.jpg);
+    }
+
+    .apresentation {
+        height: 70vh;
+        padding-top: 20vh;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1080px) {
+    .apresentation__title {
+        font-size: 5rem;
+    }
+
+    .apresentation__subtitle {
+        font-size: 2rem;
+    }
+}
